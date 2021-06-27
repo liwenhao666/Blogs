@@ -3,10 +3,8 @@
 ## 目标
 ?> 所有的设计都源于理论知识的支撑,没有理论支撑则如空中楼阁！
 
-## 快速开始
+## 设计模式
 
-### 构建 <!-- {docsify-ignore} -->
-
-?> 可参照  [casic-template](https://github.com/liwenhao666/casic-template ':crossorgin')  
+?> 参照  [设计模式](https://www.runoob.com/design-pattern/design-pattern-tutorial.html ':crossorgin')  
 
 
