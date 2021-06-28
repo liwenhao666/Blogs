@@ -18,3 +18,69 @@
 - **注意事项：** 作为一种创建类模式，在任何需要生成复杂对象的地方，都可以使用工厂方法模式。有一点需要注意的地方就是复杂对象适合使用工厂模式，而简单对象，特别是只需要通过 new 就可以完成创建的对象，无需使用工厂模式。如果使用工厂模式，就需要引入一个工厂类，会增加系统的复杂度。
 
 *****
+
+- **步骤 1**   
+
+!> 创建Shape接口
+```text
+public interface Shape {
+   void draw();
+}
+```
+
+- **步骤 2**
+
+!> 实现接口类   
+```text
+public class Rectangle implements Shape {
+ 
+   @Override
+   public void draw() {
+      System.out.println("Inside Rectangle::draw() method.");
+   }
+}
+```
+```text
+public class Square implements Shape {
+ 
+   @Override
+   public void draw() {
+      System.out.println("Inside Square::draw() method.");
+   }
+}
+```
+```text
+public class Circle implements Shape {
+ 
+   @Override
+   public void draw() {
+      System.out.println("Inside Circle::draw() method.");
+   }
+}
+```
+- **步骤 3**
+
+!> 创建工厂 
+```text
+public class ShapeFactory {
+    
+   //使用 getShape 方法获取形状类型的对象
+   public Shape getShape(String shapeType){
+      if(shapeType == null){
+         return null;
+      }        
+      if(shapeType.equalsIgnoreCase("CIRCLE")){
+         return new Circle();
+      } else if(shapeType.equalsIgnoreCase("RECTANGLE")){
+         return new Rectangle();
+      } else if(shapeType.equalsIgnoreCase("SQUARE")){
+         return new Square();
+      }
+      return null;
+   }
+}
+```
+
+- **步骤 4**
+
+?> 使用工厂创建实例

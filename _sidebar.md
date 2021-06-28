@@ -2,3 +2,4 @@
 * [SOLID  规则](/doc/solid.md "soild设计规则")
 * [设计模式之美](/doc/desgin/README.md "设计模式之美")
     * [工厂模式](/doc/desgin/factory.md "设计模式之美")
+    * [抽象工厂模式](/doc/desgin/abstract-factory.md "设计模式之美")
