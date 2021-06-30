@@ -6,3 +6,4 @@
     * [抽象工厂模式](/doc/desgin/abstract-factory.md "设计模式之美")
     * [单例模式](/doc/desgin/singleton-pattern.md "单例模式")
     * [建造者模式](/doc/desgin/builder-pattern.md "建造者模式")
+    * [原型模式](/doc/desgin/prototype-pattern.md "原型模式")
