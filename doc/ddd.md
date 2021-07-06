@@ -28,6 +28,7 @@ Eric认为需要和领域专家良好地合作，从交谈中发现通用语言�
 <figure class="thumbnails">
     <img src="assets/img/ddd/compare.jpg"  alt="Screenshot of coverpage" title="Cover page">
     <img src="assets/img/ddd/domain.jpg"  alt="Screenshot of coverpage" title="Cover page">
+    <img src="assets/img/ddd/design.jpg"  alt="Screenshot of coverpage" title="Cover page">
 </figure>
 
 ## 战略设计

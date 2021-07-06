@@ -16,14 +16,21 @@
 
 ?> 这些设计模式提供了一种在创建对象的同时隐藏创建逻辑的方式，而不是使用 new 运算符直接实例化对象。这使得程序在判断针对某个给定实例需要创建哪些对象时更加灵活。
 
-```mermaid
-        graph LR;
-        创建型模式-->工厂模式Factory-Pattern
-        创建型模式-->抽象工厂模式Abstract-Factory-Pattern
-        创建型模式-->单例模式Singleton-Pattern
-        创建型模式-->建造者模式Builder-Pattern
-        创建型模式-->原型模式Prototype-Pattern
-```
+|名称|英文名|说明|
+|:-----  |:-----|----- |
+|工厂模式 |factory pattern   |主要解决接口选择问题 |
+|抽象工厂模式 |abstract factory   |主要解决接口选择问题 |
+|单例模式 |single   |一个全局使用的类频繁地创建与销毁 |
+|建造者模式 |String   |主要解决复杂对象的创建工作 |
+|原型模式 |String   |在运行期建立和删除原型,通过clone模式。深浅copy |
 #### 结构型模式
+
+|名称|英文名|说明|
+|:-----  |:-----|----- |
+|适配器模式 |Adapter pattern   |将一些"现存的对象"放到新的环境中,<font color=red>继承或依赖</font> |
+|桥接模式 |bridge pattern   |在有多种可能会变化的情况下，用继承会造成类爆炸问题，扩展起来不灵活。<font color=red>抽象依赖实现</font> |
+|单例模式 |single   |一个全局使用的类频繁地创建与销毁 |
+|建造者模式 |String   |主要解决复杂对象的创建工作 |
+|原型模式 |String   |在运行期建立和删除原型,通过clone模式。深浅copy |
 
 #### 行为型模式
