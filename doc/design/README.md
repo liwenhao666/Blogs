@@ -27,10 +27,10 @@
 
 |名称|英文名|说明|
 |:-----  |:-----|----- |
-|适配器模式 |Adapter pattern   |将一些"现存的对象"放到新的环境中,<font color=red>继承或依赖</font> |
-|桥接模式 |bridge pattern   |在有多种可能会变化的情况下，用继承会造成类爆炸问题，扩展起来不灵活。<font color=red>抽象依赖实现</font> |
-|单例模式 |single   |一个全局使用的类频繁地创建与销毁 |
-|建造者模式 |String   |主要解决复杂对象的创建工作 |
+|适配器模式 |Adapter pattern|将一些"现存的对象"放到新的环境中,<font color=red>继承或依赖</font> |
+|桥接模式 |bridge pattern|在有多种可能会变化的情况下，用继承会造成类爆炸问题，扩展起来不灵活。<font color=red>抽象依赖实现</font> |
+|组合模式 |composite pattern|在我们树型结构的问题中，模糊了简单元素和复杂元素的概念 |
+|装饰器模式 |decorator pattern|允许向一个现有的对象添加新的功能，同时又不改变其结构 |
 |原型模式 |String   |在运行期建立和删除原型,通过clone模式。深浅copy |
 
 #### 行为型模式

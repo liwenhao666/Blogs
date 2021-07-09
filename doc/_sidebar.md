@@ -10,3 +10,4 @@
     * [2.2桥接模式](/doc/design/2.2bridge.md "bridge")
     * [2.3过滤器模式](/doc/design/2.3filter.md "filter")
     * [2.4组合模式](/doc/design/2.4composite.md "composite")
+    * [2.5装饰器模式](/doc/design/2.5decorator.md "decorator")
