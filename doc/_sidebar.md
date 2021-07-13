@@ -11,3 +11,5 @@
     * [2.3过滤器模式](/doc/design/2.3filter.md "filter")
     * [2.4组合模式](/doc/design/2.4composite.md "composite")
     * [2.5装饰器模式](/doc/design/2.5decorator.md "decorator")
+    * [2.6外观模式](/doc/design/2.6facade.md "facade")
+    * [2.7享元模式](/doc/design/2.7flyweight.md "flyweight")
