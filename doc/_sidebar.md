@@ -13,3 +13,6 @@
     * [2.5装饰器模式](/doc/design/2.5decorator.md "decorator")
     * [2.6外观模式](/doc/design/2.6facade.md "facade")
     * [2.7享元模式](/doc/design/2.7flyweight.md "flyweight")
+    * [2.8代理模式](/doc/design/2.8proxy.md "proxy")
+    * [3.1责任链模式](/doc/design/3.1chain.md "chain")
+    
