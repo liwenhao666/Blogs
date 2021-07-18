@@ -75,7 +75,8 @@ cert.pem 客户端证书
 key.pem 客户端证书私钥
 ```
 ## 配置环境变量
-DOCKER_CERT_PATH D:\workspace\cert
+?> 
+DOCKER_CERT_PATH D:\workspace\cert      
 DOCKER_HOST tcp://10.4.1.21:2376
 
 ?> 配置maven插件
