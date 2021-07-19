@@ -15,4 +15,4 @@
     * [2.7享元模式](/doc/design/2.7flyweight.md "flyweight")
     * [2.8代理模式](/doc/design/2.8proxy.md "proxy")
     * [3.1责任链模式](/doc/design/3.1chain.md "chain")
-    
+    * [3.2命令行模式](/doc/design/3.2command.md "2command")
